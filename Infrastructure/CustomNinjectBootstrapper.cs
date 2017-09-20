@@ -21,9 +21,6 @@
             Application.Current.MainWindow = (Window) Shell;
             Application.Current.MainWindow.Show();
 
-//            Kernel.Get< IEventAggregator >()
-//                .GetEvent< RegionManagerEvent< IRegionRequest > >()
-//                .Subscribe();
         }
 
 
